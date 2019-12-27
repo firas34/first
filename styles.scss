@@ -1,0 +1,30 @@
+$color: #4c2b63;
+
+h1 {
+    font-size: 30px;
+    color: $color;
+}
+
+
+#container{
+	#header{
+
+	}
+	#content{
+		.row{
+			.col-md-4{
+				color:#69084a;
+			}
+		}
+	}
+}
+
+%message{
+	font-family: sans-serif;
+	font-size: 13px;
+}
+
+.col-md-4{
+	@extend %message;
+	background-color: #e4f5f5;
+}
